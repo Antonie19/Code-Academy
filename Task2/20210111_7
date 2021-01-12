@@ -1,0 +1,16 @@
+#include <stdio.h> 
+
+int main(int num){
+
+    
+    num = 200;
+    
+    int mask = 0xAAAAAAAA;
+    
+    num = num & mask;
+
+    //print new number
+    printf("%d\n", num);
+
+    return 0;
+}
