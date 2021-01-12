@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(unsigned int num, int i){
+
+    num = 511;
+    i = 5;
+
+    unsigned int mask = ~0;
+    
+    mask = mask<<i;
+    
+    mask = ~ mask;
+    
+    num = num & mask;
+
+    printf("%d\n", num);
+
+    return 0;
+
+}
