@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(int num){
+
+    a = 400;
+    
+    /*creating a mask in 0b 1111 1000,
+    int mask = 248;
+    
+    mask = ~ mask;
+    
+    a = a & mask;
+
+    printf("%d\n", a);
+
+    return 0;
+}
