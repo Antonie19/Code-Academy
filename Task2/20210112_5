@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int vdigniBitNa(int value, int i
+{
+    int mask = 1 << i- 1;
+    int result = value | mask;
+    return result;
+}
+
+int main()
+{
+    int a, b;
+    a =3;
+    b = 5;
+    printf("%i", vdigniBitNa(a, b));
+
+    return 0;
+}
