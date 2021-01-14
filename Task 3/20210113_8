@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char x = 8;
+    x = x - 2; //Result is 6
+    x = x + 6; //Result is 12
+    x = x - 10 + 2; //Result is 4
+    printf("%d\n", x);
+
+    return 0;
+}
