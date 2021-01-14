@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    double a = 4.9876543;
+    long double b = 7.123456789012345678890L;
+    long double c = 18398458438583853.28L;
+    long double d = 18398458438583853.39875937284928422L;
+    
+    printf("%.7f \n", a);
+    printf(b);
+    printf(c);
+    printf(d);
+ 
+
+    return 0;
+}
