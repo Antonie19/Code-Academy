@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int Caravans = 3;
+    int Campers = 3;
+    double priceForCaravan = 90;
+    double priceForCamper = 100;
+
+    printf("Welcome to Caravan Camper for Rent\n");
+    printf("For a Caravan, press 1\n");
+    printf("For a Camper, press 2\n");
+
+    char result;
+    scanf("%c", &result);
+
+    return 0;
+}
