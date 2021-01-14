@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+
+    int iValue = 10;
+    float fValue = 2.99;
+    short int sValue = 100;
+    unsigned long int luValue = 11111111;
+
+    printf("\n%d\n", sizeof(iValue));
+    printf("\n%d\n", sizeof(fValue));
+    printf("\n%d\n", sizeof(siValue));
+    printf("\n%d\n", sizeof(luValue));
+
+    return 0;
+}
