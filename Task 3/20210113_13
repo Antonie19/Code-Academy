@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+
+    char a = 'a';
+    int b = 102;
+    long long c = 50000;
+    float d=6;
+    double e = -48.907;
+
+    printf("Value is %d\n",sizeof(a));
+    printf("Value is %d\n",sizeof(b));
+    printf("Value is %d\n",sizeof(c));
+    printf("Value is %d\n",sizeof(d));
+    printf("Value is %d\n",sizeof(e));
+
+
+
+    return 0;
+}
