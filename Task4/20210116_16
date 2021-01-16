@@ -1,0 +1,14 @@
+#include <stdio.h>
+double radius(float r);
+
+int main(){
+    printf("%lf\n",radius(1));
+    printf("%lf\n",radius(1.5));
+    printf("%lf\n",radius(13));
+    return 0;
+}
+double radius(float r){
+    const double pi = 3.14159;
+    double sC = r * r * pi;
+    return sC;
+}
