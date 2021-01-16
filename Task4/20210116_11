@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+        
+    char str[] = "Hello";
+    char srt[5];
+    srt[0] = str[4];
+    srt[1] = str[3];
+    srt[2] = str[2];
+    srt[3] = str[1];
+    srt[4] = str[0];
+    srt[5] = str[5];
+    
+    
+    printf("%s", srt);
+    return 0;
+}
