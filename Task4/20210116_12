@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+    char str[6] = "Hello";
+    str[2] = 'x';
+    str[3] = 'x';
+    printf("%s\n", str);
+    return 0;
+}
