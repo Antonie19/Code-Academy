@@ -1,0 +1,8 @@
+#include <stdio.h>
+extern int gX;
+int main(){
+
+    printf("Global x = %d \n", gX);
+    return 0;
+}
+int gX=242;
