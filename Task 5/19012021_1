@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int x = 10;
+    int y = 10;
+
+    int true = x == y; //x = y , равни са по стойност, което е true
+    int false = x != y; //x не е различно от y като стойност, тоест false
+
+    printf("%d\n", true);
+    printf("%d", false);
+    return 0;
+
+}
