@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void printstr(char *s);
+
+int main(){
+    printstr("Hello world!"); /* Enter text here */
+    return 0;
+}
+
+void printstr(char *s){
+    /* This function prints the string character by character */
+    int i = 0;
+    while (s[i] != '\0')
+        printf("%c", s[i++]);
+}
