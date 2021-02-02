@@ -1,0 +1,21 @@
+#include<stdio.h>
+void copy(char from[], char to[]){
+
+    int i;
+
+    for(i = 16; from[i] >= 0; i--){
+        
+        to[i] = from[i];
+        printf("%c", to[i]);
+    }
+}
+
+int main(void){
+
+    char from[] = "abcdef";
+    char to[16] = " ";
+
+    copy(from, to);
+
+    return 0;
+}
